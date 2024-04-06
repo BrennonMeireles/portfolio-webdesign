@@ -1,0 +1,65 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Oranienbaum&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+}
+
+nav{
+    display: flex;
+    height: 80px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+}
+
+li , a {
+    list-style: none;
+    color: #fff;
+    font-family: "Oranienbaum", serif;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+main > section {
+    /* border: 1px solid #fff; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+section > h1 {
+    color: #fff;
+    font-size: 64px;
+    font-family: "Oranienbaum", serif;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+
+section > h4 {
+    color: #fff;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    padding-bottom: 80px;
+}
+
+.img-contact {
+    display: flex;
+    gap: 60px;
+}
