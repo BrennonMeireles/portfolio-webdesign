@@ -9,15 +9,19 @@
 }
 
 body {
-    background-color: #000;
+    background-color: #000; 
 }
+
+/* navbar */
 
 nav{
     display: flex;
     height: 80px;
     justify-content: space-around;
     align-items: center;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(0, 0, 0, 0.3);
+    position: relative;
+    z-index: 2;
 }
 
 ul{
@@ -30,17 +34,39 @@ li , a {
     list-style: none;
     color: #fff;
     font-family: "Oranienbaum", serif;
-    font-size: 30px;
+    font-size: 26px;
     text-decoration: none;
 }
 
-main > section {
-    /* border: 1px solid #fff; */
+/* estilo do inicio da pg */
+
+header {
+    background-image: url(/src/img/fundo-abstrato-tinta-mascararondas-azuis.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+}
+
+/* mascara para escurecer o gif */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+header > section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    position: relative;
+    z-index: 2;
 }
 
 section > h1 {
@@ -48,7 +74,7 @@ section > h1 {
     font-size: 64px;
     font-family: "Oranienbaum", serif;
     font-weight: 400;
-    padding-bottom: 15px;
+    padding-bottom: 30px;
 }
 
 section > h4 {
@@ -65,17 +91,19 @@ section > h4 {
 }
 
 /* projetos */
-
 article > section {
     display: flex;
-    padding: 60px;
-    /* border: 1px solid #fff; */
+    padding: 150px 60px 100px 60px;
+    gap: 300px;
 }
 
 .project-number {
     display: flex;
-    /* border: 1px solid blue; */
     gap: 10px;
+}
+
+.project-number img {
+    padding-bottom: 14px;
 }
 
 .project-number > h2 {
@@ -83,6 +111,7 @@ article > section {
     font-size: 64px;
     font-family: "Oranienbaum", serif;
     font-weight: 400;
+    padding-bottom: 20px;
 }
 
 .project-text > h2, h4 {
@@ -93,7 +122,7 @@ article > section {
     font-size: 64px;
     font-family: "Oranienbaum", serif;
     font-weight: 400;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 .project-text > h4 {
@@ -103,6 +132,32 @@ article > section {
     padding-bottom: 20px;
 }
 
-button {
-    margin-top: 60px;
+.print-project img {
+    width: 700px;
+    height: auto;
 }
+
+/* botao */
+button {
+    display: inline-block;
+    padding: 10px 30px; 
+    border: 0.1em solid #fff;
+    margin: 2em 0.3em 0.3em 0;
+    background-color: rgb(0, 0, 0, 0);
+    box-sizing: border-box;
+    
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+  
+    color: #fff;
+    text-align: center;
+    transition: all 0.3s;
+}
+  
+button:hover {
+    color: #000;
+    background-color: #fff;
+}
+
