@@ -63,3 +63,46 @@ section > h4 {
     display: flex;
     gap: 60px;
 }
+
+/* projetos */
+
+article > section {
+    display: flex;
+    padding: 60px;
+    /* border: 1px solid #fff; */
+}
+
+.project-number {
+    display: flex;
+    /* border: 1px solid blue; */
+    gap: 10px;
+}
+
+.project-number > h2 {
+    color: #fff;
+    font-size: 64px;
+    font-family: "Oranienbaum", serif;
+    font-weight: 400;
+}
+
+.project-text > h2, h4 {
+    color: #fff;
+}
+
+.project-text > h2 {
+    font-size: 64px;
+    font-family: "Oranienbaum", serif;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.project-text > h4 {
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+button {
+    margin-top: 60px;
+}
