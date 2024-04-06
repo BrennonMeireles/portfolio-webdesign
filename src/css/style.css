@@ -42,6 +42,7 @@ li , a {
 
 header {
     background-image: url(/src/img/fundo-abstrato-tinta-mascararondas-azuis.gif);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -89,6 +90,7 @@ section > h4 {
     display: flex;
     gap: 60px;
 }
+
 
 /* projetos */
 article > section {
@@ -159,5 +161,24 @@ button {
 button:hover {
     color: #000;
     background-color: #fff;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    padding: 60px;
+    gap: 600px;
+    height: 200px;
+    background-image: url(/src/img/fundo-abstrato-tinta-mascararondas-azuis.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer > h1 {
+    color: #fff;
+    font-family: "Oranienbaum", serif;
+    font-weight: 400;
+    font-size: 64px;
 }
 
