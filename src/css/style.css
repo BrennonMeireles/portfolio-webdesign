@@ -14,7 +14,7 @@ body {
 
 /* navbar */
 
-nav{
+nav {
     display: flex;
     height: 80px;
     justify-content: space-around;
@@ -24,7 +24,7 @@ nav{
     z-index: 2;
 }
 
-ul{
+nav > ul {
     display: flex;
     justify-content: space-around;
     gap: 60px;
@@ -96,6 +96,7 @@ section > h4 {
 /* projetos */
 article > section {
     display: flex;
+    justify-content: space-between;
     padding: 150px 60px 100px 60px;
     gap: 300px;
 }
@@ -167,6 +168,7 @@ button:hover {
 footer{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding: 60px;
     gap: 600px;
     height: 200px;
@@ -184,3 +186,94 @@ footer > h1 {
     font-size: 64px;
 }
 
+@media only screen and (min-width: 1400px) {
+    .print-project img {
+        width: 800px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    
+    nav > img {
+        width: 40px;
+    }
+
+    nav {
+        padding: 10px;
+    }
+
+    nav > ul {
+        gap: 30px;
+    }
+    
+    li , a {
+        font-size: 16px;
+    }
+
+    section > h1 {
+        font-size: 48px;
+        padding-bottom: 30px;
+    }
+    
+    section > h4 {
+        font-size: 12px;
+        padding-bottom: 80px;
+    }
+    
+    .img-contact {
+        display: flex;
+        gap: 60px;
+    }
+
+    article > section {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 60px 30px;
+        gap: 100px;
+    }
+
+    .project-number img {
+        width: 40px;
+    }
+    
+    .project-number > h2 {
+        font-size: 48px;
+    }
+
+    .print-project img {
+        width: 320px;
+    }
+
+    .project-text > h2 {
+        font-size: 48px;
+        padding-bottom: 20px;
+    }
+
+    .project-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer{
+        width: 100%;
+        padding: 30px;
+        gap: 0;
+        height: 100px;
+        margin-top: 50px;
+    }
+    
+    footer > h1 {
+        font-size: 20px;
+    }
+
+    footer > .img-contact {
+        gap: 30px;
+    }
+
+    footer > .img-contact img {
+        width: 30px;
+    }
+}
