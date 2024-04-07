@@ -159,6 +159,12 @@ button {
     text-align: center;
     transition: all 0.3s;
 }
+
+button > a {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
   
 button:hover {
     color: #000;
@@ -187,6 +193,32 @@ footer > h1 {
 }
 
 @media only screen and (min-width: 1400px) {
+    nav > ul {
+        justify-content: space-between;
+        gap: 160px;
+    }
+
+    article > section {
+        padding: 150px 100px 100px 100px;
+        gap: 300px;
+    }
+
+    .print-project img {
+        width: 320px;
+    }
+
+    .project-text > h2 {
+        font-size: 70px;
+    }
+
+    .project-text > h4 {
+        font-size: 20px;
+    }
+
+    button {
+        padding: 15px 60px; 
+    }
+
     .print-project img {
         width: 800px;
     }
@@ -277,3 +309,46 @@ footer > h1 {
         width: 30px;
     }
 }
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Estilos para telas entre 601px e 1024px de largura */
+    
+    .img-contact {
+        display: flex;
+        gap: 60px;
+    }
+
+    article > section {
+        padding: 60px 60px;
+        gap: 100px;
+    }
+
+    .print-project img {
+        width: 400px;
+    }
+
+    .project-text > h2 {
+        font-size: 48px;
+        padding-bottom: 20px;
+    }
+
+    .project-text > h4 {
+        font-size: 13px;
+    }
+
+    button {
+        padding: 10px 24px; 
+    }
+
+    footer{
+        width: 100%;
+        padding: 30px;
+        gap: 0;
+        height: 100px;
+        margin-top: 50px;
+    }
+    
+    footer > h1 {
+        font-size: 40px;
+    }
+  }
