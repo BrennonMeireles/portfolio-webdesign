@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Oranienbaum&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -66,6 +66,7 @@ header {
 }
 
 /* Estilo do botão flutuante */
+
 #btnTopo {
     display: flex;
     position: fixed;
@@ -117,6 +118,7 @@ section > h4 {
 
 
 /* projetos */
+
 article > section {
     display: flex;
     justify-content: space-between;
@@ -165,6 +167,7 @@ article > section {
 }
 
 /* botao */
+
 button {
     display: inline-block;
     padding: 10px 30px; 
@@ -215,8 +218,8 @@ footer > h1 {
     font-size: 64px;
 }
 
-
 /* responsiviade para telas menores */
+
 @media only screen and (max-width: 600px) {
     
     nav > img {
