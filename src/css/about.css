@@ -1,0 +1,39 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Oranienbaum&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000; 
+}
+
+/* navbar */
+
+nav {
+    display: flex;
+    height: 80px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: relative;
+    z-index: 2;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 120px;
+}
+
+li , a {
+    list-style: none;
+    color: #fff;
+    font-family: "Oranienbaum", serif;
+    font-size: 26px;
+    text-decoration: none;
+}
