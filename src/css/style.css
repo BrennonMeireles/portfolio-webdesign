@@ -27,7 +27,7 @@ nav {
 nav > ul {
     display: flex;
     justify-content: space-around;
-    gap: 60px;
+    gap: 120px;
 }
 
 li , a {
@@ -177,7 +177,7 @@ footer{
     justify-content: space-between;
     padding: 60px;
     gap: 600px;
-    height: 200px;
+    height: 100px;
     background-image: url(/src/img/fundo-abstrato-tinta-mascararondas-azuis.gif);
     background-position: center;
     background-repeat: no-repeat;
@@ -192,38 +192,8 @@ footer > h1 {
     font-size: 64px;
 }
 
-@media only screen and (min-width: 1400px) {
-    nav > ul {
-        justify-content: space-between;
-        gap: 160px;
-    }
 
-    article > section {
-        padding: 150px 100px 100px 100px;
-        gap: 300px;
-    }
-
-    .print-project img {
-        width: 320px;
-    }
-
-    .project-text > h2 {
-        font-size: 70px;
-    }
-
-    .project-text > h4 {
-        font-size: 20px;
-    }
-
-    button {
-        padding: 15px 60px; 
-    }
-
-    .print-project img {
-        width: 800px;
-    }
-}
-
+/* responsiviade para telas menores */
 @media only screen and (max-width: 600px) {
     
     nav > img {
@@ -351,4 +321,38 @@ footer > h1 {
     footer > h1 {
         font-size: 40px;
     }
-  }
+}
+
+/* responsividade para telas maiores */
+@media only screen and (min-width: 1600px) and (max-width: 2560px) {
+
+    nav > ul {
+        justify-content: space-between;
+        gap: 160px;
+    }
+
+    article > section {
+        padding: 150px 100px 100px 100px;
+        gap: 300px;
+    }
+
+    .print-project img {
+        width: 320px;
+    }
+
+    .project-text > h2 {
+        font-size: 70px;
+    }
+
+    .project-text > h4 {
+        font-size: 20px;
+    }
+
+    button {
+        padding: 15px 60px; 
+    }
+
+    .print-project img {
+        width: 800px;
+    }
+}
