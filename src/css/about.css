@@ -41,3 +41,99 @@ li , a {
     font-size: 26px;
     text-decoration: none;
 }
+
+main {
+    padding: 150px 60px 100px 60px;
+}
+
+main > h1 {
+    color: #fff;
+    font-size: 64px;
+    font-family: "Oranienbaum", serif;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+
+section > img {
+    width: 100%;
+    height: auto;
+    z-index: 1;
+}
+
+section {
+    display: flex;
+    justify-content: right;
+}
+
+section > .mascaraFoto {
+    position: absolute;
+    width: 680px;
+    height: 935px;
+    
+    background: rgba(0, 0, 0, 0.77);
+    z-index: 2;
+}
+
+.mascaraFoto > h2 {
+    color: #fff;
+    font-size: 50px;
+
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+}
+
+.mascaraFoto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 400px 80px 80px 80px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 60px 340px;
+}
+
+article > h3 {
+    color: #fff;
+    font-size: 36px;
+    font-family: "Oranienbaum", serif;
+    font-weight: 400;    
+}
+
+article > p {
+    color: #fff;
+    font-size: 24px;
+    line-height: 32px;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+}
+
+.img-contact {
+    display: flex;
+    gap: 60px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+    gap: 600px;
+    height: 100px;
+    background-image: url(/src/img/fundo-abstrato-tinta-mascararondas-azuis.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+}
+
+footer > h1 {
+    color: #fff;
+    font-family: "Oranienbaum", serif;
+    font-weight: 400;
+    font-size: 64px;
+}
