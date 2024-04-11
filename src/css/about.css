@@ -117,6 +117,44 @@ article > p {
     gap: 60px;
 }
 
+article > .button-skills {
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    padding: 10px 20px;
+    
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+}
+
+article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+article > h2 {
+    font-size: 48px;
+    font-family: "Oranienbaum", serif;
+    fOnt-weight: 400; 
+    padding-bottom: 50px; 
+}
+
+article > h4 {
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    padding-bottom: 50px;
+}
+
+article > div {
+    padding-bottom: 50px;
+    display: flex;
+    gap: 32px;
+}
+
 footer{
     display: flex;
     align-items: center;
