@@ -155,6 +155,96 @@ article > div {
     gap: 32px;
 }
 
+.curriculo > section {
+    display: flex;
+    gap: 120px;
+    width: 90vw;
+    justify-content: center;
+    /* border: 1px solid blue; */
+}
+
+.curriculo  {
+    display: grid;
+    text-align: center;
+}
+
+.curriculo h3 {
+    font-size: 48px;
+}
+
+.curriculo > .profissional-area {
+    display: flex;
+    flex-direction: column;
+}
+
+.profissional-area > div {
+    display: flex;
+    flex-direction: column;
+    /* gap: 40px; */
+    border-radius: 16px;
+    padding: 30px;
+}
+
+div > .card-data {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 30px;
+}
+
+.profissional-area h4 {
+    font-size: 32px;
+    font-family: "Oranienbaum", serif;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.profissional-area p {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Inter", sans-serif;
+    padding-bottom: 20px;
+
+}
+
+.profissional-area > .card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    margin-bottom: 50px;
+}
+
+.profissional-area > .card h4 {
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+}
+
+.profissional-area > .card p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    padding-bottom: 60px;
+}
+
+.card > ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card > ul > li:first-child {
+    font-weight: bold;
+}
+
+.card > ul > li {
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+}
+
 footer{
     display: flex;
     align-items: center;
