@@ -17,7 +17,6 @@ body {
 }
 
 /* navbar */
-
 nav {
     display: flex;
     height: 80px;
@@ -131,7 +130,6 @@ article {
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
     color: #fff;
 }
 
@@ -158,29 +156,27 @@ article > div {
 .curriculo > section {
     display: flex;
     gap: 120px;
-    width: 90vw;
-    justify-content: center;
-    /* border: 1px solid blue; */
 }
 
 .curriculo  {
     display: grid;
-    text-align: center;
+    text-align: center; 
 }
 
 .curriculo h3 {
     font-size: 48px;
 }
 
+/* prossional-area */
 .curriculo > .profissional-area {
     display: flex;
     flex-direction: column;
+    
 }
 
-.profissional-area > div {
+.profissional-area > div { 
     display: flex;
     flex-direction: column;
-    /* gap: 40px; */
     border-radius: 16px;
     padding: 30px;
 }
@@ -189,7 +185,6 @@ div > .card-data {
     display: flex;
     gap: 10px;
     flex-direction: row;
-    align-items: center;
     justify-content: space-between;
 
     padding: 30px;
@@ -214,6 +209,8 @@ div > .card-data {
     background: rgba(255, 255, 255, 0.1);
     border-radius: 16px;
     margin-bottom: 50px;
+    width: 580px;
+    text-align: left;
 }
 
 .profissional-area > .card h4 {
@@ -245,7 +242,58 @@ div > .card-data {
     font-weight: 300;
 }
 
-footer{
+/* academic */
+.curriculo > .academic-area {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.academic-area > div {
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    padding: 30px;
+}
+
+.academic-area h4 {
+    font-size: 32px;
+    font-family: "Oranienbaum", serif;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.academic-area p {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Inter", sans-serif;
+    padding-bottom: 20px;
+
+}
+
+.academic-area > .card {
+    border: 1px solid #fff;
+    border-radius: 16px;
+    margin-bottom: 50px;
+    width: 580px;
+    text-align: left;
+}
+
+.academic-area > .card h4 {
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+}
+
+.academic-area > .card p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    padding-bottom: 60px;
+}
+
+footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
