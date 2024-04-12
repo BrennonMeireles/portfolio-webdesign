@@ -109,6 +109,8 @@ article > p {
     line-height: 32px;
     font-family: "Inter", sans-serif;
     font-weight: 300;
+
+    padding-bottom: 100px;
 }
 
 .img-contact {
@@ -234,7 +236,7 @@ div > .card-data {
 
 .card > ul > li:first-child {
     font-weight: bold;
-}
+} 
 
 .card > ul > li {
     font-size: 16px;
@@ -291,6 +293,11 @@ div > .card-data {
     font-family: "Inter", sans-serif;
     font-weight: 300;
     padding-bottom: 60px;
+}
+
+.xampp {
+    width: 64px;
+    height: auto;
 }
 
 footer {
