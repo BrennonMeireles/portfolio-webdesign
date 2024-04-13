@@ -548,3 +548,137 @@ footer > h1 {
         width: 30px;
     }
 }
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Estilos para telas entre 601px e 1024px de largura */
+
+    main {
+        padding: 20px 30px;
+    }
+    
+    main > h1 {
+        font-size: 40px;
+    }
+    
+    section > .mascaraFoto {
+        display: flex;
+        text-align: center;
+        padding: 30px;
+        width: 340px;
+        height: 475px;
+    }
+    
+    .mascaraFoto > h2 {
+        font-size: 36px;
+        line-height: 1.5;
+    }
+
+
+
+
+    article {
+        gap: 50px;
+        padding: 60px 60px 0px 60px;
+    }
+    
+    article > p {
+        font-size: 24px;
+        line-height: 30px;
+        padding-bottom: 50px;
+    }
+    
+    .img-contact {
+        display: flex;
+        gap: 60px;
+    }
+    
+    article > .button-skills {
+        padding: 10px 20px;
+    }
+    
+    article > h2 {
+        padding-bottom: 0px; 
+    }
+    
+    article > h4 {
+        display: flex;
+        text-align: center;
+        padding-bottom: 0px;
+    }
+    
+    article > div {
+        gap: 30px;
+        padding: 0;
+    }
+
+    article {
+        width: 100vw;
+    }
+
+    .curriculo > section {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    
+    .curriculo  {
+        display: grid;
+        padding: 100px 100px 0px 100px;
+    }
+
+    /* prossional-area */
+    div > .card-data {
+        display: flex;
+        gap: 10px;
+        flex-direction: row;
+        justify-content: space-between;
+        
+        padding: 30px;
+    }
+    
+    .profissional-area > div { 
+        display: flex;
+        flex-direction: column;
+        border-radius: 16px;
+        padding: 30px;
+    }
+    
+    .profissional-area > .card {
+        border-radius: 16px;
+        margin-bottom: 30px;
+        width: auto;
+    }
+
+    .card > ul > li:first-child {
+        font-weight: bold;
+    } 
+
+    .academic-area > div { 
+        display: flex;
+        flex-direction: column;
+        border-radius: 16px;
+        padding: 30px;
+    }
+
+    .academic-area > .card {
+        border-radius: 16px;
+        margin-bottom: 30px;
+        width: auto;
+    }
+
+    button {
+        padding: 10px 24px; 
+    }
+
+    footer{
+        width: 100%;
+        padding: 30px;
+        gap: 0;
+        height: 100px;
+        margin-top: 50px;
+    }
+    
+    footer > h1 {
+        font-size: 40px;
+    }
+}
