@@ -17,7 +17,6 @@ body {
 }
 
 /* navbar */
-
 nav {
     display: flex;
     height: 80px;
@@ -43,7 +42,6 @@ li , a {
 }
 
 /* estilo do inicio da pg */
-
 header {
     background-image: url(/src/img/fundo-abstrato-tinta-mascararondas-azuis.gif);
     background-position: center;
