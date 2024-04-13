@@ -342,7 +342,7 @@ footer > h1 {
     }
 
     main {
-        padding: 60px 30px;
+        padding: 20px 30px;
     }
     
     main > h1 {
@@ -350,8 +350,12 @@ footer > h1 {
     }
     
     section > .mascaraFoto {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
         width: 150px;
-        height: 255px;
+        height: 235px;
     }
     
     .mascaraFoto > h2 {
@@ -369,7 +373,7 @@ footer > h1 {
     }
     
     article > h3 {
-        font-size: 25px;  
+        font-size: 25px;
     }
     
     article > p {
@@ -418,6 +422,11 @@ footer > h1 {
        display: none;
     }
 
+    .figma-logo {
+        width: 30px;
+        height: auto;
+    }
+
     article {
         width: 100vw;
     }
@@ -461,7 +470,6 @@ footer > h1 {
     .profissional-area p {
         font-size: 20px;
         padding-bottom: 20px;
-
     }
 
     .profissional-area > .card {
@@ -525,7 +533,7 @@ footer > h1 {
         padding: 30px;
         gap: 0;
         height: 100px;
-        margin-top: 50px;
+        margin-top: 0px;
     }
     
     footer > h1 {
@@ -538,5 +546,5 @@ footer > h1 {
 
     footer > .img-contact img {
         width: 30px;
-    }   
+    }
 }
