@@ -320,3 +320,365 @@ footer > h1 {
     font-weight: 400;
     font-size: 64px;
 }
+
+/* responsiviade para telas menores */
+
+@media only screen and (max-width: 600px) {
+    
+    nav > img {
+        width: 40px;
+    }
+
+    nav {
+        padding: 10px;
+    }
+
+    nav > ul {
+        gap: 30px;
+    }
+    
+    li , a {
+        font-size: 16px;
+    }
+
+    main {
+        padding: 20px 30px;
+    }
+    
+    main > h1 {
+        font-size: 40px;
+    }
+    
+    section > .mascaraFoto {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 150px;
+        height: 235px;
+    }
+    
+    .mascaraFoto > h2 {
+        font-size: 18px;
+        line-height: 1.5; 
+    }
+    
+    .mascaraFoto {
+        padding: 40px 20px;
+    }
+
+    article {
+        gap: 50px;
+        padding: 40px;
+    }
+    
+    article > h3 {
+        font-size: 25px;
+    }
+    
+    article > p {
+        font-size: 14px;
+        line-height: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .img-contact {
+        display: flex;
+        gap: 60px;
+    }
+    
+    article > .button-skills {
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+    
+    article > h2 {
+        font-size: 28px;
+        padding-bottom: 0px; 
+    }
+    
+    article > h4 {
+        display: flex;
+        text-align: center;
+        font-size: 14px;
+        padding-bottom: 0px;
+    }
+    
+    article > div {
+        gap: 20px;
+        padding: 0;
+    }
+
+    article img {
+        width: 40px;
+        height: auto;
+    }
+
+    .mongoDB-logo {
+        width: 20px;
+    }
+
+    .xampp {
+       display: none;
+    }
+
+    .figma-logo {
+        width: 30px;
+        height: auto;
+    }
+
+    article {
+        width: 100vw;
+    }
+
+    .curriculo > section {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    
+    .curriculo  {
+        display: grid;
+    }
+    
+    .curriculo h3 {
+        font-size: 38px;
+    }
+
+    /* prossional-area */
+    div > .card-data {
+        display: flex;
+        gap: 10px;
+        flex-direction: row;
+        justify-content: space-between;
+        
+        padding: 30px;
+    }
+    
+    .profissional-area > div { 
+        display: flex;
+        flex-direction: column;
+        border-radius: 16px;
+        padding: 30px;
+    }
+
+    .profissional-area h4 {
+        font-size: 32px;
+        padding-bottom: 20px;
+    }
+
+    .profissional-area p {
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+
+    .profissional-area > .card {
+        border-radius: 16px;
+        margin-bottom: 30px;
+        width: auto;
+    }
+
+    .profissional-area > .card h4 {
+        font-size: 16px;
+    }
+
+    .profissional-area > .card p {
+        font-size: 14px;
+        padding-bottom: 30px;
+    }
+
+    .card > ul > li:first-child {
+        font-weight: bold;
+    } 
+
+    .card > ul > li {
+        font-size: 12px;
+    }
+
+    .academic-area > div { 
+        display: flex;
+        flex-direction: column;
+        border-radius: 16px;
+        padding: 30px;
+    }
+
+    .academic-area h4 {
+        font-size: 32px;
+        padding-bottom: 20px;
+    }
+
+    .academic-area p {
+        font-size: 20px;
+        padding-bottom: 20px;
+
+    }
+
+    .academic-area > .card {
+        border-radius: 16px;
+        margin-bottom: 30px;
+        width: auto;
+    }
+
+    .academic-area > .card h4 {
+        font-size: 16px;
+    }
+
+    .academic-area > .card p {
+        font-size: 14px;
+        padding-bottom: 30px;
+    }
+
+    footer {
+        width: 100%;
+        padding: 30px;
+        gap: 0;
+        height: 100px;
+        margin-top: 0px;
+    }
+    
+    footer > h1 {
+        font-size: 20px;
+    }
+
+    footer > .img-contact {
+        gap: 30px;
+    }
+
+    footer > .img-contact img {
+        width: 30px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Estilos para telas entre 601px e 1024px de largura */
+
+    main {
+        padding: 20px 30px;
+    }
+    
+    main > h1 {
+        font-size: 40px;
+    }
+    
+    section > .mascaraFoto {
+        display: flex;
+        text-align: center;
+        padding: 30px;
+        width: 340px;
+        height: 475px;
+    }
+    
+    .mascaraFoto > h2 {
+        font-size: 36px;
+        line-height: 1.5;
+    }
+
+
+
+
+    article {
+        gap: 50px;
+        padding: 60px 60px 0px 60px;
+    }
+    
+    article > p {
+        font-size: 24px;
+        line-height: 30px;
+        padding-bottom: 50px;
+    }
+    
+    .img-contact {
+        display: flex;
+        gap: 60px;
+    }
+    
+    article > .button-skills {
+        padding: 10px 20px;
+    }
+    
+    article > h2 {
+        padding-bottom: 0px; 
+    }
+    
+    article > h4 {
+        display: flex;
+        text-align: center;
+        padding-bottom: 0px;
+    }
+    
+    article > div {
+        gap: 30px;
+        padding: 0;
+    }
+
+    article {
+        width: 100vw;
+    }
+
+    .curriculo > section {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    
+    .curriculo  {
+        display: grid;
+        padding: 100px 100px 0px 100px;
+    }
+
+    /* prossional-area */
+    div > .card-data {
+        display: flex;
+        gap: 10px;
+        flex-direction: row;
+        justify-content: space-between;
+        
+        padding: 30px;
+    }
+    
+    .profissional-area > div { 
+        display: flex;
+        flex-direction: column;
+        border-radius: 16px;
+        padding: 30px;
+    }
+    
+    .profissional-area > .card {
+        border-radius: 16px;
+        margin-bottom: 30px;
+        width: auto;
+    }
+
+    .card > ul > li:first-child {
+        font-weight: bold;
+    } 
+
+    .academic-area > div { 
+        display: flex;
+        flex-direction: column;
+        border-radius: 16px;
+        padding: 30px;
+    }
+
+    .academic-area > .card {
+        border-radius: 16px;
+        margin-bottom: 30px;
+        width: auto;
+    }
+
+    button {
+        padding: 10px 24px; 
+    }
+
+    footer{
+        width: 100%;
+        padding: 30px;
+        gap: 0;
+        height: 100px;
+        margin-top: 50px;
+    }
+    
+    footer > h1 {
+        font-size: 40px;
+    }
+}
