@@ -1,6 +1,8 @@
 # Portfólio de Web Design & Front-End
 
-Este é o meu portfólio de Web Design e Front-End, um projeto que reúne minhas habilidades e paixões na área de design e programação. Optei por criar um portfólio que destacasse tanto minhas habilidades de design quanto minhas capacidades de front-end, proporcionando uma experiência única aos visitantes.
+Este é o meu portfólio de Web Design e Front-End, um projeto que reúne minhas habilidades e paixões na área de design e programação. Optei por criar um portfólio que destacasse tanto minhas habilidades de design quanto minhas capacidades de front-end, proporcionando uma experiência única aos visitantes.<br>
+
+![image](https://github.com/BrennonMeireles/portifolio/assets/141636246/54a8163f-c23b-41cb-8a7e-94f5dea37307)
 
 ## Principais características:
 
