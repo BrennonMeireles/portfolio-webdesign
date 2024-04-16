@@ -4,6 +4,14 @@ Este é o meu portfólio de Web Design e Front-End, um projeto que reúne minhas
 
 ![image](https://github.com/BrennonMeireles/portifolio/assets/141636246/54a8163f-c23b-41cb-8a7e-94f5dea37307)
 
+## Protótipo no Figma
+
+O design do meu portfólio foi completamente prototipado no Figma, uma ferramenta poderosa para design de interfaces digitais. Se você deseja explorar mais detalhadamente a tipografia, a paleta de cores e obter uma visão mais abrangente do projeto, convido você a conferir o protótipo no Figma.
+
+## Visualize o protótipo completo no Figma
+
+O protótipo oferece uma experiência interativa que permite entender melhor a estrutura e o visual do meu portfólio, proporcionando insights sobre o processo de design e a usabilidade do projeto.
+
 ## Principais características:
 
 - **Design Exclusivo:** Todo o design do portfólio foi prototipado por mim no Figma, garantindo uma abordagem única e personalizada.
