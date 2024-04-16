@@ -30,4 +30,4 @@ Estou sempre em busca de aprimoramento e novos desafios. Pretendo continuar expa
 ## Contato:
 
 Se você gostaria de saber mais sobre meu trabalho ou discutir possíveis colaborações, não hesite em entrar em contato. Estou sempre aberto a novas oportunidades e parcerias emocionantes.
-- Email: brennonmeireles7@gmail.com
+<br><br>Email: brennonmeireles7@gmail.com
