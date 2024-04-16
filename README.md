@@ -1,3 +1,11 @@
+<br><br>
+
+<div align="center">
+  <img src="https://github.com/BrennonMeireles/portfolio-webdesign/assets/141636246/0e8fe050-41d0-42ce-87c9-63ab6f4a90e7 alt="image">
+</div>
+
+<br><br>
+
 # Portfólio de Web Design & Front-End
 
 Este é o meu portfólio de Web Design e Front-End, um projeto que reúne minhas habilidades e paixões na área de design e programação. Optei por criar um portfólio que destacasse tanto minhas habilidades de design quanto minhas capacidades de front-end, proporcionando uma experiência única aos visitantes.<br>
