@@ -13,7 +13,7 @@ html {
 }
 
 body {
-    background-color: #000; 
+    background-color: #000;
 }
 
 /* navbar */
@@ -27,18 +27,44 @@ nav {
     z-index: 2;
 }
 
-nav > ul {
+nav>ul {
     display: flex;
     justify-content: space-around;
     gap: 120px;
 }
 
-li , a {
+li,
+a,
+.nav-text {
+    position: relative;
+    /* Necessário para posicionar a linha */
+    display: inline-block;
+    /* Espaçamento para a linha */
+    padding-bottom: 4px;
     list-style: none;
     color: #fff;
     font-family: "Oranienbaum", serif;
     font-size: 26px;
     text-decoration: none;
+
+    cursor: pointer;
+}
+
+li>.nav-text::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #ffffff;
+    transform: scaleX(0);
+    transform-origin: bottom left;
+    transition: transform 0.3s ease;
+}
+
+li>.nav-text:hover::after {
+    transform: scaleX(1);
 }
 
 /* estilo do inicio da pg */
@@ -78,12 +104,12 @@ header {
     transition: opacity 0.3s;
     z-index: 1;
 }
-  
+
 #btnTopo:hover {
     opacity: 0.7;
 }
 
-header > section {
+header>section {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -93,7 +119,7 @@ header > section {
     z-index: 3;
 }
 
-section > h1 {
+section>h1 {
     color: #fff;
     font-size: 64px;
     font-family: "Oranienbaum", serif;
@@ -101,7 +127,7 @@ section > h1 {
     padding-bottom: 30px;
 }
 
-section > h4 {
+section>h4 {
     color: #fff;
     font-size: 16px;
     font-family: "Inter", sans-serif;
@@ -117,7 +143,7 @@ section > h4 {
 
 /* projetos */
 
-article > section {
+article>section {
     display: flex;
     justify-content: space-between;
     padding: 150px 60px 100px 60px;
@@ -133,7 +159,7 @@ article > section {
     padding-bottom: 14px;
 }
 
-.project-number > h2 {
+.project-number>h2 {
     color: #fff;
     font-size: 64px;
     font-family: "Oranienbaum", serif;
@@ -141,18 +167,19 @@ article > section {
     padding-bottom: 20px;
 }
 
-.project-text > h2, h4 {
+.project-text>h2,
+h4 {
     color: #fff;
 }
 
-.project-text > h2 {
+.project-text>h2 {
     font-size: 64px;
     font-family: "Oranienbaum", serif;
     font-weight: 400;
     padding-bottom: 20px;
 }
 
-.project-text > h4 {
+.project-text>h4 {
     font-size: 16px;
     font-family: "Inter", sans-serif;
     font-weight: 400;
@@ -168,34 +195,39 @@ article > section {
 
 button {
     display: inline-block;
-    padding: 10px 30px; 
+    padding: 10px 30px;
     border: 0.1em solid #fff;
     margin: 2em 0.2em 0.3em 0;
     background-color: rgb(0, 0, 0, 0);
     box-sizing: border-box;
-    
+
     text-decoration: none;
     font-family: "Inter", sans-serif;
     font-size: 16px;
     font-weight: 300;
-  
+
     color: #fff;
     text-align: center;
     transition: all 0.3s;
 }
 
-button > a {
+button>a {
     font-family: "Inter", sans-serif;
     font-size: 16px;
     font-weight: 300;
+    cursor: pointer ;
 }
-  
+
 button:hover {
     color: #000;
     background-color: #fff;
 }
 
-footer{
+button>a:hover {
+    color: #000;
+}
+
+footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -209,7 +241,7 @@ footer{
     margin-top: 100px;
 }
 
-footer > h1 {
+footer>h1 {
     color: #fff;
     font-family: "Oranienbaum", serif;
     font-weight: 400;
@@ -219,8 +251,8 @@ footer > h1 {
 /* responsiviade para telas menores */
 
 @media only screen and (max-width: 600px) {
-    
-    nav > img {
+
+    nav>img {
         width: 40px;
     }
 
@@ -228,30 +260,31 @@ footer > h1 {
         padding: 10px;
     }
 
-    nav > ul {
+    nav>ul {
         gap: 30px;
     }
-    
-    li , a {
+
+    li,
+    a {
         font-size: 16px;
     }
 
-    section > h1 {
+    section>h1 {
         font-size: 48px;
         padding-bottom: 30px;
     }
-    
-    section > h4 {
+
+    section>h4 {
         font-size: 12px;
         padding-bottom: 80px;
     }
-    
+
     .img-contact {
         display: flex;
         gap: 60px;
     }
 
-    article > section {
+    article>section {
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -262,8 +295,8 @@ footer > h1 {
     .project-number img {
         width: 40px;
     }
-    
-    .project-number > h2 {
+
+    .project-number>h2 {
         font-size: 48px;
     }
 
@@ -271,7 +304,7 @@ footer > h1 {
         width: 320px;
     }
 
-    .project-text > h2 {
+    .project-text>h2 {
         font-size: 48px;
         padding-bottom: 20px;
     }
@@ -283,36 +316,36 @@ footer > h1 {
         align-items: center;
     }
 
-    footer{
+    footer {
         width: 100%;
         padding: 30px;
         gap: 0;
         height: 100px;
         margin-top: 50px;
     }
-    
-    footer > h1 {
+
+    footer>h1 {
         font-size: 20px;
     }
 
-    footer > .img-contact {
+    footer>.img-contact {
         gap: 30px;
     }
 
-    footer > .img-contact img {
+    footer>.img-contact img {
         width: 30px;
     }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
     /* Estilos para telas entre 601px e 1024px de largura */
-    
+
     .img-contact {
         display: flex;
         gap: 60px;
     }
 
-    article > section {
+    article>section {
         padding: 60px 60px;
         gap: 100px;
     }
@@ -321,28 +354,28 @@ footer > h1 {
         width: 400px;
     }
 
-    .project-text > h2 {
+    .project-text>h2 {
         font-size: 48px;
         padding-bottom: 20px;
     }
 
-    .project-text > h4 {
+    .project-text>h4 {
         font-size: 13px;
     }
 
     button {
-        padding: 10px 24px; 
+        padding: 10px 24px;
     }
 
-    footer{
+    footer {
         width: 100%;
         padding: 30px;
         gap: 0;
         height: 100px;
         margin-top: 50px;
     }
-    
-    footer > h1 {
+
+    footer>h1 {
         font-size: 40px;
     }
 }
@@ -350,12 +383,12 @@ footer > h1 {
 /* responsividade para telas maiores */
 @media only screen and (min-width: 1600px) and (max-width: 2560px) {
 
-    nav > ul {
+    nav>ul {
         justify-content: space-between;
         gap: 160px;
     }
 
-    article > section {
+    article>section {
         padding: 150px 100px 100px 100px;
         gap: 300px;
     }
@@ -364,16 +397,16 @@ footer > h1 {
         width: 320px;
     }
 
-    .project-text > h2 {
+    .project-text>h2 {
         font-size: 70px;
     }
 
-    .project-text > h4 {
+    .project-text>h4 {
         font-size: 20px;
     }
 
     button {
-        padding: 15px 60px; 
+        padding: 15px 60px;
     }
 
     .print-project img {
