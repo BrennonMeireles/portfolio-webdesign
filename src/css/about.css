@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Oranienbaum&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,7 +13,7 @@ html {
 }
 
 body {
-    background-color: #000; 
+    background-color: #000;
 }
 
 /* navbar */
@@ -27,13 +27,14 @@ nav {
     z-index: 2;
 }
 
-nav > ul {
+nav>ul {
     display: flex;
     justify-content: space-around;
     gap: 120px;
 }
 
-li , a {
+li,
+a {
     list-style: none;
     color: #fff;
     font-family: "Oranienbaum", serif;
@@ -45,7 +46,7 @@ main {
     padding: 150px 60px 100px 60px;
 }
 
-main > h1 {
+main>h1 {
     color: #fff;
     font-size: 64px;
     font-family: "Oranienbaum", serif;
@@ -53,7 +54,7 @@ main > h1 {
     padding-bottom: 30px;
 }
 
-section > img {
+section>img {
     width: 100%;
     height: auto;
     z-index: 1;
@@ -64,16 +65,16 @@ section {
     justify-content: right;
 }
 
-section > .mascaraFoto {
+section>.mascaraFoto {
     position: absolute;
     width: 680px;
     height: 935px;
-    
+
     background: rgba(0, 0, 0, 0.77);
     z-index: 2;
 }
 
-.mascaraFoto > h2 {
+.mascaraFoto>h2 {
     color: #fff;
     font-size: 50px;
 
@@ -96,14 +97,14 @@ article {
     padding: 60px 340px;
 }
 
-article > h3 {
+article>h3 {
     color: #fff;
     font-size: 36px;
     font-family: "Oranienbaum", serif;
-    font-weight: 400;    
+    font-weight: 400;
 }
 
-article > p {
+article>p {
     color: #fff;
     font-size: 24px;
     line-height: 32px;
@@ -118,12 +119,12 @@ article > p {
     gap: 60px;
 }
 
-article > .button-skills {
+article>.button-skills {
     font-size: 20px;
     font-family: "Inter", sans-serif;
     font-weight: 500;
     padding: 10px 20px;
-    
+
     background: rgba(255, 255, 255, 0.1);
     border-radius: 16px;
 }
@@ -135,34 +136,34 @@ article {
     color: #fff;
 }
 
-article > h2 {
+article>h2 {
     font-size: 48px;
     font-family: "Oranienbaum", serif;
-    fOnt-weight: 400; 
-    padding-bottom: 50px; 
+    fOnt-weight: 400;
+    padding-bottom: 50px;
 }
 
-article > h4 {
+article>h4 {
     font-size: 24px;
     font-family: "Inter", sans-serif;
     font-weight: 300;
     padding-bottom: 25px;
 }
 
-article > div {
+article>div {
     padding-bottom: 50px;
     display: flex;
     gap: 32px;
 }
 
-.curriculo > section {
+.curriculo>section {
     display: flex;
     gap: 120px;
 }
 
-.curriculo  {
+.curriculo {
     display: grid;
-    text-align: center; 
+    text-align: center;
 }
 
 .curriculo h3 {
@@ -170,20 +171,20 @@ article > div {
 }
 
 /* prossional-area */
-.curriculo > .profissional-area {
+.curriculo>.profissional-area {
     display: flex;
     flex-direction: column;
-    
+
 }
 
-.profissional-area > div { 
+.profissional-area>div {
     display: flex;
     flex-direction: column;
     border-radius: 16px;
     padding: 30px;
 }
 
-div > .card-data {
+div>.card-data {
     display: flex;
     gap: 10px;
     flex-direction: row;
@@ -207,7 +208,7 @@ div > .card-data {
 
 }
 
-.profissional-area > .card {
+.profissional-area>.card {
     background: rgba(255, 255, 255, 0.1);
     border-radius: 16px;
     margin-bottom: 50px;
@@ -215,13 +216,13 @@ div > .card-data {
     text-align: left;
 }
 
-.profissional-area > .card h4 {
+.profissional-area>.card h4 {
     font-size: 20px;
     font-family: "Inter", sans-serif;
     font-weight: bold;
 }
 
-.profissional-area > .card p {
+.profissional-area>.card p {
     color: rgba(255, 255, 255, 0.5);
     font-size: 16px;
     font-family: "Inter", sans-serif;
@@ -229,29 +230,29 @@ div > .card-data {
     padding-bottom: 60px;
 }
 
-.card > ul {
+.card>ul {
     display: flex;
     justify-content: space-between;
 }
 
-.card > ul > li:first-child {
+.card>ul>li:first-child {
     font-weight: bold;
-} 
+}
 
-.card > ul > li {
+.card>ul>li {
     font-size: 16px;
     font-family: "Inter", sans-serif;
     font-weight: 300;
 }
 
 /* academic */
-.curriculo > .academic-area {
+.curriculo>.academic-area {
     display: flex;
     flex-direction: column;
-    
+
 }
 
-.academic-area > div {
+.academic-area>div {
     display: flex;
     flex-direction: column;
     border-radius: 16px;
@@ -273,7 +274,7 @@ div > .card-data {
 
 }
 
-.academic-area > .card {
+.academic-area>.card {
     border: 1px solid #fff;
     border-radius: 16px;
     margin-bottom: 50px;
@@ -281,13 +282,13 @@ div > .card-data {
     text-align: left;
 }
 
-.academic-area > .card h4 {
+.academic-area>.card h4 {
     font-size: 20px;
     font-family: "Inter", sans-serif;
     font-weight: bold;
 }
 
-.academic-area > .card p {
+.academic-area>.card p {
     color: rgba(255, 255, 255, 0.5);
     font-size: 16px;
     font-family: "Inter", sans-serif;
@@ -314,7 +315,7 @@ footer {
     margin-top: 100px;
 }
 
-footer > h1 {
+footer>h1 {
     color: #fff;
     font-family: "Oranienbaum", serif;
     font-weight: 400;
@@ -324,8 +325,8 @@ footer > h1 {
 /* responsiviade para telas menores */
 
 @media only screen and (max-width: 600px) {
-    
-    nav > img {
+
+    nav>img {
         width: 40px;
     }
 
@@ -333,23 +334,24 @@ footer > h1 {
         padding: 10px;
     }
 
-    nav > ul {
+    nav>ul {
         gap: 30px;
     }
-    
-    li , a {
+
+    li,
+    a {
         font-size: 16px;
     }
 
     main {
         padding: 20px 30px;
     }
-    
-    main > h1 {
+
+    main>h1 {
         font-size: 40px;
     }
-    
-    section > .mascaraFoto {
+
+    section>.mascaraFoto {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -357,12 +359,12 @@ footer > h1 {
         width: 150px;
         height: 235px;
     }
-    
-    .mascaraFoto > h2 {
+
+    .mascaraFoto>h2 {
         font-size: 18px;
-        line-height: 1.5; 
+        line-height: 1.5;
     }
-    
+
     .mascaraFoto {
         padding: 40px 20px;
     }
@@ -371,40 +373,40 @@ footer > h1 {
         gap: 50px;
         padding: 40px;
     }
-    
-    article > h3 {
+
+    article>h3 {
         font-size: 25px;
     }
-    
-    article > p {
+
+    article>p {
         font-size: 14px;
         line-height: 20px;
         padding-bottom: 20px;
     }
-    
+
     .img-contact {
         display: flex;
         gap: 60px;
     }
-    
-    article > .button-skills {
+
+    article>.button-skills {
         font-size: 12px;
         padding: 10px 20px;
     }
-    
-    article > h2 {
+
+    article>h2 {
         font-size: 28px;
-        padding-bottom: 0px; 
+        padding-bottom: 0px;
     }
-    
-    article > h4 {
+
+    article>h4 {
         display: flex;
         text-align: center;
         font-size: 14px;
         padding-bottom: 0px;
     }
-    
-    article > div {
+
+    article>div {
         gap: 20px;
         padding: 0;
     }
@@ -419,7 +421,7 @@ footer > h1 {
     }
 
     .xampp {
-       display: none;
+        display: none;
     }
 
     .figma-logo {
@@ -431,31 +433,31 @@ footer > h1 {
         width: 100vw;
     }
 
-    .curriculo > section {
+    .curriculo>section {
         display: flex;
         flex-direction: column;
         gap: 50px;
     }
-    
-    .curriculo  {
+
+    .curriculo {
         display: grid;
     }
-    
+
     .curriculo h3 {
         font-size: 38px;
     }
 
     /* prossional-area */
-    div > .card-data {
+    div>.card-data {
         display: flex;
         gap: 10px;
         flex-direction: row;
         justify-content: space-between;
-        
+
         padding: 30px;
     }
-    
-    .profissional-area > div { 
+
+    .profissional-area>div {
         display: flex;
         flex-direction: column;
         border-radius: 16px;
@@ -472,30 +474,30 @@ footer > h1 {
         padding-bottom: 20px;
     }
 
-    .profissional-area > .card {
+    .profissional-area>.card {
         border-radius: 16px;
         margin-bottom: 30px;
         width: auto;
     }
 
-    .profissional-area > .card h4 {
+    .profissional-area>.card h4 {
         font-size: 16px;
     }
 
-    .profissional-area > .card p {
+    .profissional-area>.card p {
         font-size: 14px;
         padding-bottom: 30px;
     }
 
-    .card > ul > li:first-child {
+    .card>ul>li:first-child {
         font-weight: bold;
-    } 
+    }
 
-    .card > ul > li {
+    .card>ul>li {
         font-size: 12px;
     }
 
-    .academic-area > div { 
+    .academic-area>div {
         display: flex;
         flex-direction: column;
         border-radius: 16px;
@@ -513,17 +515,17 @@ footer > h1 {
 
     }
 
-    .academic-area > .card {
+    .academic-area>.card {
         border-radius: 16px;
         margin-bottom: 30px;
         width: auto;
     }
 
-    .academic-area > .card h4 {
+    .academic-area>.card h4 {
         font-size: 16px;
     }
 
-    .academic-area > .card p {
+    .academic-area>.card p {
         font-size: 14px;
         padding-bottom: 30px;
     }
@@ -535,16 +537,16 @@ footer > h1 {
         height: 100px;
         margin-top: 0px;
     }
-    
-    footer > h1 {
+
+    footer>h1 {
         font-size: 20px;
     }
 
-    footer > .img-contact {
+    footer>.img-contact {
         gap: 30px;
     }
 
-    footer > .img-contact img {
+    footer>.img-contact img {
         width: 30px;
     }
 }
@@ -555,58 +557,55 @@ footer > h1 {
     main {
         padding: 20px 30px;
     }
-    
-    main > h1 {
+
+    main>h1 {
         font-size: 40px;
     }
-    
-    section > .mascaraFoto {
+
+    section>.mascaraFoto {
         display: flex;
         text-align: center;
         padding: 30px;
         width: 340px;
         height: 475px;
     }
-    
-    .mascaraFoto > h2 {
+
+    .mascaraFoto>h2 {
         font-size: 36px;
         line-height: 1.5;
     }
-
-
-
 
     article {
         gap: 50px;
         padding: 60px 60px 0px 60px;
     }
-    
-    article > p {
+
+    article>p {
         font-size: 24px;
         line-height: 30px;
         padding-bottom: 50px;
     }
-    
+
     .img-contact {
         display: flex;
         gap: 60px;
     }
-    
-    article > .button-skills {
+
+    article>.button-skills {
         padding: 10px 20px;
     }
-    
-    article > h2 {
-        padding-bottom: 0px; 
+
+    article>h2 {
+        padding-bottom: 0px;
     }
-    
-    article > h4 {
+
+    article>h4 {
         display: flex;
         text-align: center;
         padding-bottom: 0px;
     }
-    
-    article > div {
+
+    article>div {
         gap: 30px;
         padding: 0;
     }
@@ -615,70 +614,85 @@ footer > h1 {
         width: 100vw;
     }
 
-    .curriculo > section {
+    .curriculo>section {
         display: flex;
         flex-direction: column;
         gap: 50px;
     }
-    
-    .curriculo  {
+
+    .curriculo {
         display: grid;
         padding: 100px 100px 0px 100px;
     }
 
     /* prossional-area */
-    div > .card-data {
+    div>.card-data {
         display: flex;
         gap: 10px;
         flex-direction: row;
         justify-content: space-between;
-        
+
         padding: 30px;
     }
-    
-    .profissional-area > div { 
+
+    .profissional-area>div {
         display: flex;
         flex-direction: column;
         border-radius: 16px;
         padding: 30px;
     }
-    
-    .profissional-area > .card {
+
+    .profissional-area>.card {
         border-radius: 16px;
         margin-bottom: 30px;
         width: auto;
     }
 
-    .card > ul > li:first-child {
+    .card>ul>li:first-child {
         font-weight: bold;
-    } 
+    }
 
-    .academic-area > div { 
+    .academic-area>div {
         display: flex;
         flex-direction: column;
         border-radius: 16px;
         padding: 30px;
     }
 
-    .academic-area > .card {
+    .academic-area>.card {
         border-radius: 16px;
         margin-bottom: 30px;
         width: auto;
     }
 
     button {
-        padding: 10px 24px; 
+        padding: 10px 24px;
     }
 
-    footer{
+    footer {
         width: 100%;
         padding: 30px;
         gap: 0;
         height: 100px;
         margin-top: 50px;
     }
-    
-    footer > h1 {
+
+    footer>h1 {
         font-size: 40px;
+    }
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 2560px) {
+
+    section>.mascaraFoto {
+        text-align: center;
+        padding: 30px;
+        width: 45%;
+        height: 130%;
+    }
+
+    .mascaraFoto>h2 {
+        font-size: 36px;
+        line-height: 1.5;
     }
 }
